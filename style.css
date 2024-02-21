@@ -11,7 +11,7 @@ body {
     color: #f9faf8;
     display: flex;
     align-items: center;
-    padding: 16px;
+    padding: 20px;
     gap: 20px;
 }
 .one{
@@ -22,4 +22,56 @@ a:link {
     text-decoration: none;
     color: #e5e7eb; 
     font-size: 18px;
+}
+
+.body1 {
+    display: flex;
+    background: #1f2937;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.body11 {
+    padding-right: 32px;
+}
+
+.about {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin-bottom: 8px;
+}
+
+.text {
+    font-size: 18px;
+    color: #f9faf8;
+    margin-bottom: 8px;
+}
+
+button {
+    background-color: #3882f6;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #f9faf8;
+    padding: 8px 15px;
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+}
+
+img {
+    border-radius: 8px;
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.content {
+    display: flex;
+}
+.info {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
 }
