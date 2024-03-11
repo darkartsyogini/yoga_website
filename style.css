@@ -86,9 +86,7 @@ img {
 
 .quote {
     background-color: #e5e7eb;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+    text-align: center;
 }
 .quotewords {
     font-size: 36px;
@@ -101,5 +99,23 @@ img {
     font-size: 25px;
     font-weight: bold;
     color: #1f2937;
-    align-self: flex-end;
+    text-align: right;
+}
+
+.cta {
+    background-color: #3882f6;
+    display: flex;
+    color: #f9faf8;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta
+button {
+    border-style: solid;
+}
+
+.footer {
+    background-color: #1f2937;
+    text-align: center;
 }
